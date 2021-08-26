@@ -47,18 +47,6 @@ h1 {
     z-index: 99;
 }
 
-.faq {
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.accordion-container {
-    width: 50%;
-    align-self: center;
-    padding-right: 5em;
-    overflow: hidden;
-}
-
 .container {
     box-sizing: border-box;
     background-image: url('./images/bg-pattern-desktop.svg');
@@ -78,6 +66,18 @@ h1 {
     position: relative;
 }
 
+.accordion-container {
+    width: 50%;
+    align-self: center;
+    padding-right: 5em;
+    overflow: hidden;
+}
+
+.faq {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
 button.accordion {
     font-family: 'Kumbh Sans', sans-serif;
     color: var(--light-grey);
@@ -90,7 +90,6 @@ button.accordion {
     cursor: pointer;
     background-color: transparent;
     transition: color 0.2s linear;
-    /* position: relative; */
 }
 
 button.accordion.is-open {
